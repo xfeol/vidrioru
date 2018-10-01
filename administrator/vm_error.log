@@ -1,0 +1,288 @@
+12:40:58 26.01.2014 VirtueMart [ERR] [91.76.212.209] [admin] Необходимо ввести название товара.
+12:51:28 26.01.2014 VirtueMart [ERR] [91.76.212.209] [admin] A Product with the SKU EC1003 already exists.
+13:47:58 26.01.2014 VirtueMart [ERR] [91.76.212.209] [admin] Необходимо ввести название товара.
+16:16:57 27.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU AX1001 already exists.
+13:29:18 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] A Product with the SKU PM1006 already exists.
+13:29:55 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] A Product with the SKU PM1004 already exists.
+13:30:11 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] A Product with the SKU PM1004 already exists.
+13:30:30 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] A Product with the SKU PM1014 already exists.
+13:30:46 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] A Product with the SKU PM1018 already exists.
+17:33:48 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1013 already exists.
+17:33:52 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1014 already exists.
+17:33:57 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1015 already exists.
+17:33:59 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1016 already exists.
+17:34:01 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1017 already exists.
+17:34:06 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1018 already exists.
+17:34:08 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1019 already exists.
+17:34:15 28.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] A Product with the SKU PS1020 already exists.
+19:13:50 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Название аттрибута должно быть уникальным.
+19:17:06 28.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Название аттрибута должно быть уникальным.
+17:26:08 29.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Товар уже является  данным типом товара.
+17:30:45 29.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Failed to retrieve the Currency Converter XML document.
+13:24:59 30.01.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] Название аттрибута должно быть уникальным.
+19:44:46 30.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Failed to retrieve the Currency Converter XML document.
+19:46:58 30.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Failed to retrieve the Currency Converter XML document.
+21:48:20 30.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Название аттрибута должно быть уникальным.
+02:04:47 31.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] A Product with the SKU РМ1025.1 already exists.
+02:14:54 31.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Название аттрибута должно быть уникальным.
+02:21:24 31.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Название аттрибута должно быть уникальным.
+20:30:11 31.01.2014 VirtueMart [ERR] [79.165.61.141] [vidrio] Failed to retrieve the Currency Converter XML document.
+17:23:07 09.02.2014 VirtueMart [ERR] [79.165.50.255] [vidrio] Товар уже является  данным типом товара.
+21:20:40 09.02.2014 VirtueMart [ERR] [79.165.50.255] [vidrio] Название аттрибута должно быть уникальным.
+21:44:31 09.02.2014 VirtueMart [ERR] [79.165.50.255] [vidrio] ID товара должно быть определено.
+22:01:24 09.02.2014 VirtueMart [ERR] [79.165.50.255] [vidrio] Невозможно удалить полное изображение.
+22:05:00 09.02.2014 VirtueMart [ERR] [79.165.50.255] [vidrio] A Product with the SKU РМ8018 already exists.
+17:36:35 10.02.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] Название аттрибута должно быть уникальным.
+09:31:44 24.02.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] Название аттрибута должно быть уникальным.
+09:35:41 24.02.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] Название аттрибута должно быть уникальным.
+09:36:49 24.02.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] Название аттрибута должно быть уникальным.
+09:41:52 24.02.2014 VirtueMart [ERR] [91.76.212.209] [vidrio] Название аттрибута должно быть уникальным.
+18:25:43 24.02.2014 VirtueMart [ERR] [91.76.212.209] [admin] Необходимо ввести название товара.
+05:24:12 02.04.2014 VirtueMart [ERR] [185.6.245.156] [admin] A Product with the SKU EC1018 already exists.
+05:24:21 02.04.2014 VirtueMart [ERR] [185.6.245.156] [admin] A Product with the SKU EC1019 already exists.
+05:34:21 03.04.2014 VirtueMart [ERR] [185.6.245.156] [admin] A Product with the SKU EC1023 already exists.
+18:17:43 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+18:24:59 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+19:01:31 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+19:04:48 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+19:06:24 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:12:52 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:15:28 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:20:02 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:22:10 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:27:32 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] ID товара должно быть определено.
+20:32:21 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:38:46 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:40:16 09.04.2014 VirtueMart [ERR] [79.165.59.202] [vidrio] Название аттрибута должно быть уникальным.
+20:25:04 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+20:49:33 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+20:51:18 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+20:51:18 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+20:51:19 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+20:52:37 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+20:54:35 10.04.2014 VirtueMart [ERR] [79.165.59.152] [vidrio] Название аттрибута должно быть уникальным.
+17:12:36 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Невозможно удалить полное изображение.
+17:14:03 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Невозможно удалить полное изображение.
+17:16:35 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Невозможно удалить полное изображение.
+17:22:13 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Невозможно удалить полное изображение.
+17:34:44 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Название аттрибута должно быть уникальным.
+17:36:15 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Название аттрибута должно быть уникальным.
+17:38:38 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Название аттрибута должно быть уникальным.
+17:55:39 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Название аттрибута должно быть уникальным.
+17:57:10 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Название аттрибута должно быть уникальным.
+17:58:54 11.04.2014 VirtueMart [ERR] [79.165.48.91] [vidrio] Название аттрибута должно быть уникальным.
+18:40:58 04.11.2014 VirtueMart [ERR] [79.165.52.184] [vidrio] Товар уже является  данным типом товара.
+18:51:18 04.11.2014 VirtueMart [ERR] [79.165.52.184] [vidrio] Название аттрибута должно быть уникальным.
+18:59:34 04.11.2014 VirtueMart [ERR] [79.165.52.184] [vidrio] Название аттрибута должно быть уникальным.
+19:11:31 04.11.2014 VirtueMart [ERR] [79.165.52.184] [vidrio] Название аттрибута должно быть уникальным.
+19:22:20 04.11.2014 VirtueMart [ERR] [79.165.52.184] [vidrio] Название аттрибута должно быть уникальным.
+17:32:29 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] A Product with the SKU SS1052 already exists.
+17:32:55 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] A Product with the SKU SS1052 already exists.
+17:33:43 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] A Product with the SKU SS1052 already exists.
+17:36:03 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] A Product with the SKU SS1052 already exists.
+17:38:39 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] A Product with the SKU SS1052 already exists.
+17:54:49 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] Необходимо ввести артикул товара.
+17:54:49 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] Необходимо ввести название товара.
+19:20:31 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] A Product with the SKU SS1C001 already exists.
+19:21:42 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] Товар уже является  данным типом товара.
+19:21:51 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] Пожалуйста выберите товар для удаления из данного типа товара.
+19:21:58 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] Пожалуйста выберите товар для удаления из данного типа товара.
+19:34:03 11.11.2014 VirtueMart [ERR] [79.165.57.172] [vidrio] Товар уже является  данным типом товара.
+23:56:27 17.11.2014 VirtueMart [ERR] [79.165.59.127] [vidrio] Название аттрибута должно быть введено.
+00:02:17 18.11.2014 VirtueMart [ERR] [79.165.59.127] [vidrio] Необходимо ввести артикул товара.
+00:02:17 18.11.2014 VirtueMart [ERR] [79.165.59.127] [vidrio] Необходимо ввести название товара.
+14:47:50 25.11.2014 VirtueMart [ERR] [79.165.59.185] [vidrio] A Product with the SKU SS61003 already exists.
+14:48:13 25.11.2014 VirtueMart [ERR] [79.165.59.185] [vidrio] A Product with the SKU SS61004 already exists.
+14:48:30 25.11.2014 VirtueMart [ERR] [79.165.59.185] [vidrio] A Product with the SKU SS61005 already exists.
+14:09:33 26.11.2014 VirtueMart [ERR] [79.165.50.13] [vidrio] A Product with the SKU SS1C013 already exists.
+20:02:00 03.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  мяффка ,  ()
+20:50:27 05.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1034 already exists.
+20:50:45 05.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1035 already exists.
+20:50:57 05.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1040 already exists.
+21:01:04 05.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+12:28:14 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1013.2 already exists.
+12:38:37 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1013.3 already exists.
+13:35:32 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] ID товара должно быть определено.
+13:38:01 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] ID товара должно быть определено.
+14:12:03 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1021,1 already exists.
+14:12:13 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1021,1 already exists.
+14:12:29 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1021,1 already exists.
+17:55:40 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+17:56:20 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1025.2 already exists.
+18:07:39 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU РМ1025,1 already exists.
+18:08:08 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU РМ1025,1 already exists.
+18:40:09 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1031,1 already exists.
+18:40:32 06.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1031,1 already exists.
+08:36:22 07.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Виталий ,  ()
+13:53:14 07.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+13:54:40 07.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] ID товара должно быть определено.
+13:59:17 07.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+11:15:01 08.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM1047,1 already exists.
+12:26:51 10.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+15:47:35 11.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU SS2902 already exists.
+15:48:12 11.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU SS2903 already exists.
+15:48:32 11.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU SS2904 already exists.
+16:20:57 11.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести артикул товара.
+16:20:57 11.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+12:03:18 13.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Алена ,  ()
+07:48:48 14.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM2002 already exists.
+07:49:03 14.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM2008 already exists.
+08:15:45 14.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU PM2010 already exists.
+08:05:25 17.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU АХ8016.3 already exists.
+08:31:34 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2029 already exists.
+08:31:44 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2030 already exists.
+08:31:50 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2031 already exists.
+08:31:55 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2050 already exists.
+08:32:02 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2060 already exists.
+08:32:14 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2070 already exists.
+08:32:27 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2080 already exists.
+08:32:34 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2081 already exists.
+12:04:28 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+12:13:10 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+12:14:41 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+12:58:54 20.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+12:59:55 20.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+13:45:35 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2108 already exists.
+14:05:52 20.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2131 already exists.
+05:22:44 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU АХ8017 already exists.
+06:37:38 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2050 already exists.
+06:38:04 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2060 already exists.
+06:38:12 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2055 already exists.
+06:38:29 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2090 already exists.
+06:38:41 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2040 already exists.
+06:38:46 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2041 already exists.
+06:38:51 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2042 already exists.
+06:38:55 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2043 already exists.
+06:39:02 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2010 already exists.
+06:39:06 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2011 already exists.
+06:39:14 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2012 already exists.
+06:39:18 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2013 already exists.
+06:39:27 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2014 already exists.
+06:39:32 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2015 already exists.
+06:39:39 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2020 already exists.
+06:39:44 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2021 already exists.
+06:40:14 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2022 already exists.
+06:40:20 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2025 already exists.
+06:40:28 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2100 already exists.
+06:40:36 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2101 already exists.
+08:47:23 21.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Маргарита ,  ()
+08:47:29 21.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Маргарита ,  ()
+08:48:01 21.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Екатерина ,  ()
+11:13:52 21.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Алена ,  ()
+11:27:36 21.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  александр ,  ()
+12:23:03 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Название аттрибута должно быть уникальным.
+12:33:10 21.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Название аттрибута должно быть уникальным.
+08:33:19 23.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2209.3 already exists.
+13:54:26 23.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2212 already exists.
+15:38:19 23.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2216 already exists.
+06:46:44 24.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU ME2223 already exists.
+13:49:33 27.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU РМ8029 already exists.
+15:03:34 27.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+15:26:18 27.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU РМ8020.6 already exists.
+07:51:25 29.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Юрий ,  ()
+10:51:17 29.04.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+09:06:41 30.04.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU A1119 already exists.
+12:27:14 05.05.2015 VirtueMart [ERR] [188.32.1.228] [admin] Пожалуйста выберите товар для удаления из данного типа товара.
+12:27:19 05.05.2015 VirtueMart [ERR] [188.32.1.228] [admin] Пожалуйста выберите товар для удаления из данного типа товара.
+09:14:44 06.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+09:44:29 07.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Роман ,  ()
+09:44:44 07.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Оксана ,  ()
+06:07:00 12.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Ольга ,  ()
+05:34:54 13.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Ольга ,  ()
+13:34:42 13.05.2015 VirtueMart [ERR] [188.32.1.228] [admin] Необходимо ввести название товара.
+14:16:30 13.05.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU С4808.8 already exists.
+14:27:26 13.05.2015 VirtueMart [ERR] [188.32.1.228] [admin] A Product with the SKU С4808.11 already exists.
+15:50:38 13.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно создать мини-изображение!
+08:45:38 14.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  ольга ,  ()
+11:47:14 15.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Юрий ,  ()
+07:10:36 21.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  елена ,  ()
+12:10:21 26.05.2015 VirtueMart [WARNING] [188.32.1.228] [admin] Невозможно отправить сообщение для  Оксана ,  ()
+11:26:57 03.06.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU AI1505 already exists.
+12:13:03 10.06.2015 VirtueMart [WARNING] [37.110.50.207] [admin] Невозможно создать мини-изображение!
+12:30:16 10.06.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU SNAP already exists.
+08:34:15 15.06.2015 VirtueMart [WARNING] [37.110.50.207] [admin] Невозможно создать мини-изображение!
+13:28:34 22.06.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU Гала 2 already exists.
+07:15:29 29.06.2015 VirtueMart [WARNING] [37.110.50.207] [admin] Невозможно отправить сообщение для  михаил ,  ()
+12:51:27 01.07.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU PS1025 already exists.
+12:51:37 01.07.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU PS1030 already exists.
+09:00:22 09.07.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU MIS007 already exists.
+14:36:41 09.07.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU MIS013 already exists.
+12:15:11 10.07.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU MIS028 already exists.
+06:56:25 20.08.2015 VirtueMart [WARNING] [37.110.50.207] [admin] Невозможно отправить сообщение для  татьяна ,  ()
+10:07:51 04.09.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU MIS032 already exists.
+10:36:18 04.09.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU MIS034 already exists.
+11:00:26 10.09.2015 VirtueMart [WARNING] [37.110.50.207] [admin] Невозможно отправить сообщение для  Алексей ,  ()
+06:08:19 14.09.2015 VirtueMart [WARNING] [37.110.50.207] [admin] Невозможно отправить сообщение для  Олег ,  ()
+12:45:56 14.09.2015 VirtueMart [ERR] [37.110.50.207] [admin] A Product with the SKU SB007 already exists.
+06:25:24 28.09.2015 VirtueMart [WARNING] [37.204.193.73] [admin] Невозможно отправить сообщение для  Оксана ,  ()
+06:25:56 28.09.2015 VirtueMart [WARNING] [37.204.193.73] [admin] Невозможно отправить сообщение для  Ирина ,  ()
+06:26:12 28.09.2015 VirtueMart [WARNING] [37.204.193.73] [admin] Невозможно отправить сообщение для  Антонина ,  ()
+06:49:36 30.09.2015 VirtueMart [WARNING] [37.204.193.73] [admin] Невозможно отправить сообщение для  Мария ,  ()
+06:43:09 06.10.2015 VirtueMart [ERR] [37.204.193.73] [admin] Товар уже является  данным типом товара.
+06:43:17 06.10.2015 VirtueMart [ERR] [37.204.193.73] [admin] Пожалуйста выберите товар для удаления из данного типа товара.
+06:43:22 06.10.2015 VirtueMart [ERR] [37.204.193.73] [admin] Пожалуйста выберите товар для удаления из данного типа товара.
+08:18:20 16.10.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  елена ,  ()
+11:49:53 16.10.2015 VirtueMart [ERR] [188.32.1.47] [admin] A Product with the SKU ST065 already exists.
+08:00:49 19.10.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Татьяна ,  ()
+08:01:03 19.10.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Таисия ,  ()
+12:11:20 21.10.2015 VirtueMart [ERR] [188.32.1.47] [admin] A Product with the SKU ST085 already exists.
+11:58:45 23.10.2015 VirtueMart [ERR] [188.32.1.47] [admin] A Product with the SKU ST089 already exists.
+07:36:13 29.10.2015 VirtueMart [ERR] [188.32.1.47] [admin] A Product with the SKU ST097 already exists.
+13:00:55 30.10.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Валерий ,  ()
+07:42:08 12.11.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Татьяна ,  ()
+13:24:46 19.11.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Ольга ,  ()
+13:56:40 24.11.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Ольга ,  ()
+07:31:55 30.11.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Ольга ,  ()
+14:13:12 01.12.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  павликова ольга ,  ()
+15:44:02 21.12.2015 VirtueMart [ERR] [188.32.1.47] [admin] A Product with the SKU SS5013 already exists.
+14:10:41 27.12.2015 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  павликова ольга ,  ()
+09:47:54 05.01.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Алексей ,  ()
+14:22:31 29.01.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  МАРИЯ ,  ()
+13:34:37 01.02.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  наталья ,  ()
+13:34:56 01.02.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  виктория ,  ()
+09:17:14 15.02.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Елена ,  yamile@yandex.ru  ()
+06:49:21 22.02.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Елена ,  yamile@yandex.ru  ()
+09:34:55 01.03.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  андрей , 916-634-8458 ()
+08:52:10 18.05.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Топчиева Ольга , topus2908@list.ru  ()
+07:17:06 06.06.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Татьяна ,    Tbt2004@rambler.ru  ()
+07:27:17 27.06.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  Юлия ,  ()
+06:50:52 05.07.2016 VirtueMart [WARNING] [188.32.1.47] [admin] Невозможно отправить сообщение для  ксения ,  ()
+07:47:31 22.08.2016 VirtueMart [WARNING] [37.110.52.22] [admin] Невозможно отправить сообщение для  Инна ,  ()
+12:37:09 12.09.2016 VirtueMart [WARNING] [188.32.3.74] [admin] Невозможно отправить сообщение для  Елена ,  ()
+09:56:13 14.09.2016 VirtueMart [WARNING] [188.32.3.74] [admin] Невозможно отправить сообщение для  Дмитрий , yutkin-da@mail.ru ()
+14:32:30 15.09.2016 VirtueMart [WARNING] [188.32.3.74] [admin] Невозможно отправить сообщение для  Ольга , OljaSko@mail.ru ()
+11:10:45 22.09.2016 VirtueMart [ERR] [188.32.3.74] [admin] The requested URL returned error: 404 Component not found
+08:44:12 10.11.2016 VirtueMart [ERR] [37.110.48.165] [admin] Товар уже является  данным типом товара.
+08:15:26 14.11.2016 VirtueMart [ERR] [37.110.48.165] [admin] A Product with the SKU ST123 already exists.
+08:44:46 07.12.2016 VirtueMart [WARNING] [37.110.48.165] [admin] Невозможно создать мини-изображение!
+08:45:50 07.12.2016 VirtueMart [WARNING] [37.110.48.165] [admin] Невозможно создать мини-изображение!
+14:13:27 08.02.2017 VirtueMart [ERR] [77.37.247.167] [admin] A Product with the SKU ST204 already exists.
+14:22:48 08.02.2017 VirtueMart [ERR] [77.37.247.167] [admin] Товар уже является  данным типом товара.
+08:34:33 14.02.2017 VirtueMart [ERR] [37.110.49.199] [admin] A Product with the SKU ST215 already exists.
+10:37:00 14.02.2017 VirtueMart [ERR] [37.110.49.199] [admin] A Product with the SKU ST221 already exists.
+11:47:36 14.02.2017 VirtueMart [ERR] [37.110.49.199] [admin] A Product with the SKU ST223 already exists.
+08:07:13 15.02.2017 VirtueMart [ERR] [37.110.49.199] [admin] A Product with the SKU ST225 already exists.
+09:50:43 15.02.2017 VirtueMart [ERR] [37.110.49.199] [admin] A Product with the SKU ST230 already exists.
+08:14:59 17.04.2017 VirtueMart [ERR] [37.110.55.155] [admin] A Product with the SKU KN004 already exists.
+14:09:49 18.04.2017 VirtueMart [ERR] [37.110.55.155] [admin] A Product with the SKU KN006 already exists.
+14:44:47 19.04.2017 VirtueMart [ERR] [37.110.55.155] [admin] A Product with the SKU KN008 already exists.
+12:40:46 04.05.2017 VirtueMart [ERR] [37.204.193.210] [admin] A Product with the SKU KN020 already exists.
+07:50:55 02.06.2017 VirtueMart [ERR] [37.110.53.80] [admin] A Product with the SKU ME2220 already exists.
+07:51:02 02.06.2017 VirtueMart [ERR] [37.110.53.80] [admin] A Product with the SKU ME2221 already exists.
+07:58:28 22.06.2017 VirtueMart [ERR] [90.154.76.202] [admin] ID товара должно быть определено.
+07:59:20 22.06.2017 VirtueMart [ERR] [90.154.76.202] [admin] Невозможно удалить полное изображение.
+08:01:17 22.06.2017 VirtueMart [ERR] [90.154.76.202] [admin] Невозможно удалить полное изображение.
+08:07:03 22.06.2017 VirtueMart [ERR] [90.154.76.202] [admin] Невозможно удалить полное изображение.
+08:42:05 07.07.2017 VirtueMart [ERR] [37.110.51.76] [admin] A Product with the SKU ME2040.2 already exists.
+07:32:32 12.07.2017 VirtueMart [ERR] [188.32.0.102] [admin] A Product with the SKU ME2303 already exists.
+12:22:11 17.07.2017 VirtueMart [ERR] [188.32.0.102] [admin] Невозможно удалить полное изображение.
+12:35:55 15.09.2017 VirtueMart [ERR] [37.110.48.27] [admin] A Product with the SKU SS1135 already exists.
+12:36:00 15.09.2017 VirtueMart [ERR] [37.110.48.27] [admin] A Product with the SKU SS1136 already exists.
+07:16:42 18.09.2017 VirtueMart [ERR] [188.32.3.96] [admin] A Product with the SKU SS2002 already exists.
+13:25:53 03.10.2017 VirtueMart [ERR] [213.87.154.62] [admin] A Product with the SKU KN016 already exists.
+13:27:37 03.10.2017 VirtueMart [ERR] [213.87.154.62] [admin] A Product with the SKU KN017 already exists.
+13:28:05 03.10.2017 VirtueMart [ERR] [213.87.154.62] [admin] A Product with the SKU KN032 already exists.
+13:28:13 03.10.2017 VirtueMart [ERR] [213.87.154.62] [admin] A Product with the SKU KN033 already exists.
+14:21:22 03.10.2017 VirtueMart [ERR] [213.87.154.62] [admin] A Product with the SKU KN034 already exists.
+08:04:17 10.11.2017 VirtueMart [ERR] [188.32.0.98] [admin] A Product with the SKU SS1C008 already exists.
+08:04:27 10.11.2017 VirtueMart [ERR] [188.32.0.98] [admin] A Product with the SKU SS1C009 already exists.

@@ -1,0 +1,82 @@
+<HTML>
+<HEAD>
+    <TITLE>AiDaNews2 1.5 - Changelog</TITLE>
+</HEAD>
+<BODY>
+<b>Version 2.0.7 - The result of 30 days of coding</b><br/>
+<br/>
+[+] Frontpage Offset: you can now exclude the first X frontpaged articles. It can be combined with the normal offset, but Offset will be used first!<br/>
+[+] Each article now gets a CSS class with the catid of the category it's in;<br/>
+[+] Using the '[st]' tag in the date output field will make the module automagically show 'st', 'nd', 'rd' or 'th' depending on the number of the day (%d[st] gets changed to 1st, 2nd, 3rd, 4th...);<br/>
+[+] New options for ratings: round and stars.<br/>
+[+] You can now choose wheter to display Trashed articles or not (just like frontpage articles);<br/>
+[+] The [br] tag can now be used in Layout Positions - it corresponds to the < br / > HTML tag;<br/>
+[>] New ordering: frontpage ordering (the order you put the articles in the featured state; <br/>
+[>] Text and Images now have their own CSS classes;<br/>
+[*] Added margin below tables CSS and removed font-size: 80% from date in default.css;<br/>
+[*] Category URLs are now correct
+[*] Bugfix: Kunena Discuss plugin can now be used as a commenting System. I'm sorry I wrote it was available in 2.0.6 when it wasn't in the options set ;) ;<br/>
+[*] 'Use Style' option was rephrased to make it clearer.
+<br/>
+<b>Version 2.0.6 - Include Laguages</b><br/>
+<br/>
+[+] New Language Files: Persian (by Joomla.ir) & Italian (by me);<br/>
+[+] Automatic Update Notifier: if an update is available, the module will automatically notice it and display a link to download the new version in the module's backend;<br/>
+[>] New supported commenting system: Kunena Discuss Plugin;<br/>
+[*] Added the "alt" tag in images (W3C reasons);<br/>
+[*] Corrected some lines in the language file.<br/>
+<br/>
+<b>Version 2.0.5 - Minor Bugfixes</b><br/>
+<br/>
+[*] Correction in tooltip's [author] tag;<br/>
+[*] The symbol $ is now displayed correctly in both title and text.<br/>
+<br/>
+<b>Version 2.0.4 - Fixing auto in images</b><br/>
+<br/>
+[*] Using the "auto" parameter in images won't cause any more errors in Internet Explorer.<br/>
+<br/>
+<b>Version 2.0.3 - Joomla! 1.7 Version Available!</b><br/>
+<br/>
+[*] No changes were made to this version. The code was slightly edited to mirror the spacing of the one for Joomla! 1.7.<br/>
+<br/>
+<b>Version 2.0.2 - Lots of corrections!</b><br/>
+<br/>
+[*] Display Section <br/>
+[*] Link to Category or Section <br/>
+[*] CSS Module Class Suffix corrections: now only the main div has the class suffix. Styling based on a suffix is maybe a bit more complex for developers, but using css suffixes with the templates won't make the module crash.<br/>
+[*] Default CSS changes - if you created a new one, please include the changes. I commented out the old parts and included the new ones at the end of the file.<br/>
+[*] Some corrections to Kunena's link and avatar display.</br>
+[*] The CSS field is now larger and taller so that it's easier to edit its content.<br/>
+[*] An index.html file was included in every folder (and excluded from the files displayed in the css stylesheets)<br/>
+[*] Images width and height set to auto shouldn't cause problems now <br/>
+[*] The 'Read More' text can now be changed in the backend <br/>
+<br/>
+<b>Version 2.0.1 - A couple of Bugfixes</b><br/>
+<br/>
+[*] Removed a bug in the template that made grid layouts crash when a module class suffix was inserted.<br/>
+[*] Fixed the code that retrieves avatars and such from the database.<br/>
+[*] The presentation text has been corrected (Thanks Hélène! ;) )<br/>
+<br/>
+<b>Version 2.0.0 - First AiDaNews2 release</b><br/>
+<br/>
+<u>What's new compared to AiDaNews 1.2.1?</u><br/>
+<br/>
+[+] Secondary Ordering option - select how to order the articles when you can't discern an order from the Primary Ordering (for example if they have the same number of views or comments).<br/>
+[+] Three separate images can now be displayed for every article. They can be article images, user avatars, youtube videos thumbnails, category images and so on. You can also link them to separate urls.<br/>
+[+] Images Preference list - if an image isn't available for the article, the module will look for the next one in the list.<br/>
+[+] First / Last Image - You can now choose to select the last image tag, thumbnail, gallery (...) instead of the first one. If you put both First and Last of the same image type, the module will automatically remove the second in the list (as there won't be last if there isn't first :3)<br/>
+[+] New Layout Positions - you now have 9 fields instead of 5, and they can be styled in different ways to adapt them to your needs.<br/>
+[+] CSS files support - choose wheter to use the default CSS style, a pre-made one that suits your template best or create your own. You can still add some/all of the CSS rules you need from the module's backend!<br/>
+[+] Layout Styles - if you chose to use a CSS file, you can use its own module positions that are stored in the layout file with the same name. More info about this can be found in the Documentation ;).<br/>
+<br/>
+[-] FLEXIcontent support has been removed from the main module. A new module for the component may be released in the future, but it will be separate from this one.<br/>
+[-] The option that allowed to exclude categories has not been recoded for this new version. I'll include it in a new version if anyone needs it - just let me know with an e-mail or a post on the site. The same reasoning applies to Facebook and Twitter share links, rating with stars, cateogry display and the author limit to JomSocial and CB friends.<br/>
+<br/>
+______________________________<br/>
+<br/>
+[*] = Bug correction<br/>
+[>] = Minor addition<br/>
+[+] = New feature</br>
+[-] = Removal / Other
+</BODY>
+</HTML>

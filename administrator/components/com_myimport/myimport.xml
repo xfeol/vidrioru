@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>MyImport</name>
+	<creationDate>07/11/2011</creationDate>
+	<author>Aleksandr Rebrov(dinox)</author>
+	<copyright>(C) 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>webmaster@webplaneta.com.ua</authorEmail>
+	<authorUrl>www.webplaneta.com.ua</authorUrl>
+	<license>GPL 2.0</license>
+	<version>1.5.6.2</version>
+	<description>Компонент импорта/экспорта товаров в Virtuemart 1.1.x для Joomla 1.5.x</description>
+	<files folder="site">
+		<filename>myimport.php</filename>
+	</files>
+	<administration>
+		<menu>MyImport</menu>
+		<submenu>
+			<menu link="option=com_myimport&amp;task=import">Импорт</menu>
+			<menu link="option=com_myimport&amp;task=export">Экспорт</menu>
+			<menu link="option=com_myimport&amp;task=about">Про компонент</menu>
+			<menu link="option=com_myimport&amp;task=versions">История версий</menu>
+		</submenu>
+	<files folder="admin">
+			<filename>admin.myimport.php</filename>
+			<filename>about.myimport.php</filename>
+			<filename>versions.myimport.php</filename>
+			<filename>toolbar.myimport.php</filename>
+			<filename>toolbar.myimport.html.php</filename>
+			<filename>config.xml</filename>
+			<filename>images/addedit.png</filename>
+			<filename>images/backup.png</filename>
+			<filename>images/history.png</filename>
+			<filename>images/info.png</filename>
+			<filename>images/index.html</filename>
+	</files>
+	</administration>
+</install>

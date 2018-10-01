@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Cherry Picker</name>
+	<creationDate>March 2012</creationDate>
+	<author>Maksym Stefanchuk</author>
+	<authorEmail>admin|at|galt.md</authorEmail>
+	<authorUrl>http://www.galt.md</authorUrl>
+	<copyright>
+		Copyright (C) 2009-2011 Maksym Stefanchuk. All rights reserved.
+	</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<version>2.0.8</version>
+   	<description>
+		<![CDATA[
+		<div style="text-align:center;font:29px Tahoma;"><font color="#00a606">Cherry Picker</font> &mdash; filter products by parameters.</div>
+<div style="font:18px Arial;margin:10px">
+		If this is your first install of ChP and you don't know yet how to set it up you may refer to 
+		<a href="http://www.galt.md/index.php?option=com_content&amp;view=article&amp;id=57&amp;Itemid=80#q8">this video guide</a> for help.
+		<br>For other tips &amp; info please visit <a href="http://www.galt.md">Galt.md</a></div>
+		]]>
+	</description>
+     <files>
+        <filename module="mod_vm_cherry_picker">mod_vm_cherry_picker.php</filename>
+        <filename>controller.php</filename>
+        <filename>writer.php</filename>
+        <filename>conf.php</filename>
+        <filename>index.html</filename>
+        <folder>css/</folder>
+        <folder>js/</folder>
+        <folder>cache/</folder>
+		<folder>ajax/</folder>
+     </files>
+	 <languages>
+        <language tag="en-GB">en-GB.mod_vm_cherry_picker.ini</language>
+    </languages>
+     <params>
+			<field name="mode" type="radio" default="0" label="CHP_CHP_MODE" description="">
+		  		<option value="0">CHP_CHP_MODE_SINGLE</option>
+		  		<option value="1">CHP_CHP_MODE_MULTI</option>
+			</field>
+			<field name="type" type="radio" default="0" label="CHP_CHP_TYPE" description="">
+		  		<option value="0">CHP_CHP_TYPE_VERT</option>
+		  		<option value="1">CHP_CHP_TYPE_HORIZ</option>
+				<option value="2">CHP_CHP_TYPE_DROPDOWN</option>
+			</field>
+			<field name="custom_product_type_id" type="text" default="" label="CHP_PTID" description="CHP_PTID_DESC" />
+     		
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Pre-text Options &lt;/span&gt;" />
+            <field name="titletype" type="list" default="1" label="CHP_PRETEXT_TYPE" description="CHP_PRETEXT_TYPE_DESC">
+		  		<option value="0">CHP_NONE</option>
+		  		<option value="1">CHP_PRETEXT_DYN</option>
+		  		<option value="2">CHP_PRETEXT_STATIC</option>
+			</field>		
+     
+			<field name="statictitle" type="textarea" cols="20" rows="1" default="Narrow your search with filters" label="CHP_PRETEXT_STATIC_LABEL" description="CHP_PRETEXT_STATIC_DESC" />
+			<field name="dynamictitle" type="textarea" cols="20" rows="1" default="Refine search in" label="CHP_PRETEXT_DYN_LABEL" description="CHP_PRETEXT_DYN_DESC" />
+	
+			<field type="spacer" default=" " />
+            <field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Filter Selected &lt;/span&gt;" />
+			<field name="backlink" type="textarea" cols="20" rows="1" default="Back" label="CHP_BACK" description="" />	
+			
+			<field type="spacer" default=" " />
+            <field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; See more.. Options &lt;/span&gt;" />
+			<field name="useseemore" type="radio" default="0" label="CHP_USE_SEEMORE" description="CHP_USE_SEEMORE_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+            <field name="b4seemore" type="text" default="6" label="CHP_SEEMORE_SHOWB4" description="CHP_SEEMORE_SHOWB4_DESC" />
+            <field name="seemore" type="text" default="See more.." size="40" label="CHP_SEEMORE_SM" description="CHP_SEEMORE_SM_DESC" />
+            <field name="seeless" type="text" default="See less.." size="40" label="CHP_SEEMORE_SL" description="CHP_SEEMORE_SL_DESC" />
+            <field name="smanchor" type="radio" default="0" label="CHP_SEEMORE_ANCHOR" description="CHP_SEEMORE_ANCHOR_DESC">
+		  		<option value="0">CHP_TOP</option>
+		  		<option value="1">CHP_BOTTOM</option>
+			</field>
+            <field name="fadein" type="radio" default="1" label="CHP_SEEMORE_FADEIN" description="CHP_SEEMORE_FADEIN_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="use_seemore_ajax" type="radio" default="0" label="CHP_SEEMORE_AJAX" description="CHP_SEEMORE_AJAX_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Cherry Picker Multi's Options &lt;/span&gt;" />
+			<field name="showclearlink" type="radio" default="1" label="CHP_MULTIOPT_CLEAR" description="CHP_MULTIOPT_CLEAR_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="clear" type="text" default="Clear" size="40" label="CHP_SPECIFY_CLEAR" description="CHP_SPECIFY_CLEAR_DESC" />
+			<field name="usesmartsearch" type="radio" default="1" label="CHP_MULTIOPT_SMARTSEARCH" description="CHP_MULTIOPT_SMARTSEARCH_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Search by Price Options &lt;/span&gt;" />
+			<field name="search_by_price" type="radio" default="1" label="CHP_SBP" description="CHP_SBP_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="price_position" type="radio" default="0" label="CHP_POSITION" description="CHP_POSITION_DESC">
+		  		<option value="0">CHP_TOP</option>
+		  		<option value="1">CHP_BOTTOM</option>
+			</field>
+			<field name="pricetitle" type="text" default="Price" size="40" label="CHP_PRETEXT" description="CHP_SBP_HEAD_DESC" />
+			<field name="price_from" type="text" default="$" size="40" label="CHP_SBP_FROM" description="CHP_SBP_FROM_DESC" />
+			<field name="price_to" type="text" default="to $" size="40" label="CHP_SBP_TO" description="CHP_SBP_TO_DESC" />
+			<field name="include_tax" type="radio" default="0" label="CHP_INCLUDE_TAX" description="CHP_INCLUDE_TAX_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="tax" type="text" default="1.19" size="40" label="CHP_TAX" description="CHP_TAX_DESC" />
+			
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; TrackBar for Search by Price &lt;/span&gt;" />
+			<field name="showtrackbar" type="radio" default="0" label="CHP_TRACKBAR" description="CHP_TRACKBAR_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="leftlimitauto" type="radio" default="0" label="CHP_TB_LEFTLIM_TYPE" description="CHP_TB_LEFTLIM_TYPE_DESC">
+		  		<option value="0">CHP_MANUAL</option>
+		  		<option value="1">CHP_AUTO</option>
+			</field>
+			<field name="leftlimit" type="text" default="0" label="CHP_TB_LEFTLIM_VALUE" description="CHP_TB_LEFTLIM_VALUE_DESC" />
+			<field name="rightlimitauto" type="radio" default="1" label="CHP_TB_RIGHTLIM_TYPE" description="CHP_TB_RIGHTLIM_TYPE_DESC">
+		  		<option value="0">CHP_MANUAL</option>
+		  		<option value="1">CHP_AUTO</option>
+			</field>
+			<field name="rightlimit" type="text" default="100" label="CHP_TB_RIGHTLIM_VALUE" description="CHP_TB_RIGHTLIM_VALUE_DESC" />
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; TrackBar for Parameter &lt;/span&gt;" />
+			<field name="tb_lbl_type" type="radio" default="0" label="CHP_TB_LBL_TYPE" description="">
+		  		<option value="0">CHP_TB_LBL_REG</option>
+		  		<option value="1">CHP_TB_LBL_POPUP</option>
+			</field>
+			<field name="tb_from" type="text" default="from" size="40" label="CHP_TB_FROM" description="" />
+			<field name="tb_to" type="text" default="to" size="40" label="CHP_TB_TO" description="" />
+			<field name="tb_all" type="text" default="All" size="40" label="CHP_TB_ALL" description="" />
+			<field name="tb_apply" type="text" default="Apply" size="40" label="CHP_TB_APPLY" description="" />
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Drop-down list layout Options &lt;/span&gt;" />
+			<field name="filters_in_column" type="text" default="" size="20" label="CHP_FILTERS_IN_COLUMN" description="CHP_FILTERS_IN_COLUMN_DESC" />
+			<field name="load_filters_ajax" type="radio" default="0" label="CHP_FILTERS_AJAX" description="CHP_FILTERS_AJAX_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="remove_empty_params" type="radio" default="0" label="CHP_EMPTY_PARAMS" description="CHP_EMPTY_PARAMS_DESC">
+		  		<option value="1">CHP_EMPTY_PARAMS_REMOVE</option>
+		  		<option value="0">CHP_EMPTY_PARAMS_SHOW_MSG</option>
+			</field>
+			<field name="empty_params_msg" type="text" default="No filters" size="40" label="CHP_EMPTY_PARAMS_MSG" description="CHP_EMPTY_PARAMS_MSG_DESC" />
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Total Products &lt;/span&gt;" />
+			<field name="show_total_products" type="radio" default="1" label="CHP_TOTAL_PRODUCTS" description="CHP_TOTAL_PRODUCTS_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="pretext_totalproducts" type="textarea" cols="20" rows="1" default="Total products:" label="CHP_PRETEXT" description="" />
+			
+			
+			<field type="spacer" default=" " />
+			<field type="spacer" default="&lt;span style=&quot;color:black;padding-left:70px;font-size:16px;font-weight:bold;white-space:nowrap;&quot;&gt; Miscellaneous &lt;/span&gt;" />
+			<field name="usecache" type="radio" default="0" label="CHP_USECACHE" description="CHP_USECACHE_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="fill_metatitle" type="radio" default="0" label="CHP_FILL_META_TITLE" description="CHP_FILL_META_TITLE_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="hide_params_with1filter" type="radio" default="0" label="CHP_HIDE_PARAMS_1FILTER" description="CHP_HIDE_PARAMS_1FILTER_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			
+		
+			<field name="showfiltercount" type="radio" default="1" label="CHP_NUMOFPROD" description="CHP_NUMOFPROD_DESC">
+				<option value="1">CHP_SHOW</option>
+		  		<option value="0">CHP_CALC_NOT_SHOW</option>
+				<option value="2">CHP_NOT_CALC</option>
+			</field>
+			
+			<field name="collapsehead" type="radio" default="0" label="CHP_USE_COLLAPSE" description="CHP_USE_COLLAPSE_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="default_collapsed" type="radio" default="0" label="CHP_DEFAULT_COLLAPSED" description="CHP_DEFAULT_COLLAPSED_DESC">
+		  		<option value="0">Expanded</option>
+		  		<option value="1">Collapsed</option>
+			</field>
+			
+			<field name="displayonflypage" type="radio" default="0" label="CHP_SHOWON_DETAILSPAGE" description="CHP_SHOWON_DETAILSPAGE_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			<field name="translate" type="radio" default="0" label="CHP_TRANSLATE" description="CHP_TRANSLATE_DESC">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</field>
+			
+			
+	
+	</params>
+	<params group="advanced">
+		<field type="spacer" default="&lt;span style=&quot;color:red;padding-left:7px;font-size:16px;font-weight:bold;&quot;&gt; Change these only when you know what you're doing &lt;/span&gt;" />
+		<field name="show_specific_params" type="list" default="0" label="CHP_USEHACK" description="CHP_USEHACK_DESC">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		
+		<field name="short_url" type="radio" default="0" label="CHP_URL_FORMAT" description="CHP_URL_FORMAT">
+			<option value="0">CHP_DEFAULT</option>
+			<option value="1">CHP_SHORT</option>
+		</field>
+	 
+		<field type="spacer" default=" " />
+     	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	</params>
+</install>

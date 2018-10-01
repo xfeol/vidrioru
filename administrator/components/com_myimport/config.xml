@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<params>
+	<param name="browse" type="text" menu="hide" default="browse_1" label="Шаблон категории" description="Название шаблона категории" />
+	<param name="encoding" type="text" menu="hide" default="windows-1251" label="Кодировка файла" description="Кодировка загружаемого файла" />
+	<param name="browse_col" type="text" menu="hide" default="2" label="Количество товаров в строке" description="Количество товаров в строке категории" />
+	<param name="flypage" type="text" menu="hide" default="flypage" label="Шаблон товара" description="Название шаблона страницы подробного описания товара" />
+	<param name="weight" type="text" menu="hide" default="pounds" label="Единицы измерения веса" description="Единицы измерения веса товара" />
+	<param name="currency" type="text" menu="hide" default="RUB" label="Валюта" description="Валюта товара" />
+	<param name="debug" type="radio" default="0" label="Режим отладки" description="Показывает информацию о товарах при импорте">
+	<option value="0">Нет</option>
+	<option value="1">Да</option>
+	</param>
+	<param name="@spaceer" type="spacer" default="=========== Параметры экспорта ==========" label="" description="" />
+	<param name="sdescr" type="radio" default="0" label="Экспортировать краткое описание" description="">
+	<option value="1">Нет</option>
+	<option value="0">Да</option>
+	</param>
+	<param name="descr" type="radio" default="0" label="Экспортировать описание" description="">
+	<option value="1">Нет</option>
+	<option value="0">Да</option>
+	</param>
+	<param name="@spaceer" type="spacer" default="=========== Параметры родительскиx товаров ==========" label="" description="" />
+	<param name="child_2" type="radio" default="0" label="Использовать список ''бокс'' для зависимых товаров" description="">
+	<option value="0">Нет</option>
+	<option value="1">Да</option>
+	</param>
+	<param name="child_3" type="radio" default="0" label="Показывать описание зависимого товара" description="">
+	<option value="0">Нет</option>
+	<option value="1">Да</option>
+	</param>
+	<param name="child_4" type="radio" default="0" label="Тип кнопки корзины" description="">
+	<option value="0">Одна кнопка "Добавить в корзину"</option>
+	<option value="1">Кнопка "Добавить в корзину" для каждого зависимого товара </option>
+	</param>
+	</params>
+</config>

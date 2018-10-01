@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Zaragoza SEO</name>
+	<author>Ciro Artigot</author>
+	<creationDate>January 2009</creationDate>
+	<copyright>(C) 2009 Ciro Artigot. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@zaragozaonline.com</authorEmail>
+	<authorUrl>http://www.zaragozaonline.com</authorUrl>
+	<version>2.0.3</version>
+	<description>Zaragoza SEO Complements for Joomla!</description>
+	<files>
+		<filename plugin="zaragoza_seo">zaragoza_seo.php</filename>
+	</files>
+	<params>
+		<param name="seotitle" type="radio" default="1" label="Admin titles" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="posicion" type="radio" default="1" label="Page title position" description="">
+			<option value="0">After</option>
+			<option value="1">Before</option>
+		</param>
+		<param name="separador" type="text" default="" size="3" label="Separator" description="" />		
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="seodescription" type="radio" default="1" label="Admin Meta-Description" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="removegenerator" type="radio" default="0" label="Remove generator metatag" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="removebase" type="radio" default="0" label="Remove base href header tag" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="removerobots" type="radio" default="0" label="Remove robots metatag" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>											
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="hidemootols" type="radio" default="0" label="Hide mootools.js" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="hidecaption" type="radio" default="0" label="Hide caption.js" description="">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>						
+	</params>
+</install>

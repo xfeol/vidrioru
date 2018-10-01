@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Fast Seller</name>
+	<creationDate>March, 2012</creationDate>
+	<author>Maksym Stefanchuk</author>
+	<authorEmail>admin@galt.md</authorEmail>
+	<authorUrl>http://www.galt.md</authorUrl>
+	<copyright>Copyright 2012 Galt.md All rights reserved!</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.0.8</version>
+	<description><![CDATA[<div style="text-align:center;font:29px Tahoma;"><font color="#00a606">Fast Seller</font> &mdash; manage filters efficiently.</div>
+<div style="font:18px Arial;margin:10px 50px">
+	For more tips &amp; info please visit <a href="http://www.galt.md">Galt.md</a></div>]]></description>
+
+	<installfile>install.fastseller.php</installfile>
+	
+	<install>
+		<sql>
+			<file driver="mysql">install.sql</file>
+			<file driver="mysql" charset="utf8">install.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<queries></queries>
+	</uninstall>
+
+	<administration>
+		<menu img="components/com_fastseller/images/fs-ico-16.png">Fast Seller</menu>
+		<files>
+			<filename>index.html</filename>
+			<filename>admin.fastseller.php</filename>
+			<filename>install.sql</filename>
+			<filename>configuration.php</filename>
+			<filename>admin.style.css</filename>
+			
+			<folder>ajax</folder>
+			<folder>controllers</folder>
+			<folder>views</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+		</files>
+		
+	</administration>
+</install>

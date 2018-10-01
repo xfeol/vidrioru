@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>VM Universal Search PRO</name>
+	<creationDate>07.06.2011</creationDate>
+    <author>Arkadiy, Kirill</author>
+	<copyright>WebInteractions</copyright>
+    <license>GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.4.1</version>
+    <description>Универсальный модуль поиска для Virtuemart.Поиск по категории,производителю,параметрам типов товара.</description>
+    <files>
+        <filename module="mod_vm_universal_search_pro">helper.php</filename>
+        <filename module="mod_vm_universal_search_pro">index.html</filename>
+        <filename module="mod_vm_universal_search_pro">mod_vm_universal_search_pro.php</filename>
+        <filename module="mod_vm_universal_search_pro">files/index.html</filename>
+        <filename module="mod_vm_universal_search_pro">files/mod_universal_search.js</filename>
+        <filename module="mod_vm_universal_search_pro">files/style.css</filename>
+	<filename module="mod_vm_universal_search_pro">tmpl/default.php</filename>
+	<filename module="mod_vm_universal_search_pro">tmpl/index.html</filename>
+    </files>
+    <languages folder="languages">
+        <language tag="ru-RU">ru-RU.mod_vm_universal_search_pro.ini</language>
+        <language tag="en-GB">en-GB.mod_vm_universal_search_pro.ini</language>
+    </languages>
+    <params>
+        <param name="show_cat" type="list" default="1" label="ADM_CAT" description="ADM_CAT_DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="show_manuf" type="list" default="1" label="ADM_MAN" description="ADM_MAN_DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="show_ad" type="list" default="1" label="ADM_AD" description="ADM_AD_DESC">
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="show_types" type="list" default="1" label="ADM_TYPE" description="ADM_TYPE_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="show_prices" type="list" default="1" label="ADM_PRICE" description="ADM_PRICE_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="moduleclass_sfx" type="text" default="" label="ADM_CSS" description="ADM_CSS_DESC" />
+        <param name="jq" type="list" default="1" label="ADM_JQ" description="ADM_JQ_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="jqf" type="list" default="1" label="ADM_JQF" description="ADM_JQF_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="jquery_ui" type="list" default="1" label="ADM_JQ_UI" description="ADM_JQ_UI_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="show_order_by_in_form" type="list" default="1" label="VES_SHOW_ORDER_BY" description="VES_SHOW_ORDER_BY_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="view_order_by" type="list" default="1" label="VES_VIEW_ORDER_BY" description="VES_VIEW_ORDER_BY_DESC" >
+            <option value="select">VES_SELECT</option>
+            <option value="radio">VES_RADIO</option>
+        </param>
+        <param name="srch_one_type" type="list" default="0" label="VES_SEARCH_ONLY_ONE_TYPE" description="VES_SEARCH_ONLY_ONE_TYPE_DESC" >
+            <option value="1">YES</option>
+            <option value="0">NO</option>
+        </param>
+        <param name="adm_type_id" type="text" default="" label="VES_ADM_TYPE_ID" description="VES_ADM_TYPE_ID_DESC" />
+    </params>
+
+</install>

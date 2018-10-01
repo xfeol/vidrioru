@@ -1,0 +1,15 @@
+div#breadcrumb{font-size: 13px;color: #CC6600;margin-bottom:5px;}
+div#breadcrumb a{font-size:13px;font-weight: bold;color: #003399;text-decoration: none;}
+/*
+div#breadcrumb a:visited{
+	color: #996633;
+
+}*/
+div#breadcrumb a:hover{color: #CC6600;}
+.spacer{color: #CC6600;}
+/* style brecets here () */
+.xlink{color: #CC6600;}
+/* style 'x' here */
+div#breadcrumb a.xlinka{font-weight: normal;font-size: 10px;}
+.currentpos{color: #cc6600;font-weight: bold;}
+.pretext{font-weight: bold;color: #003399;}

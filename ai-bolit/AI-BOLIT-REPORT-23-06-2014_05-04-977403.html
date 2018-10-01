@@ -1,0 +1,362 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+<META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+<style type="text/css" title="currentStyle">
+	@import "http://www.revisium.com/extra/media/css/demo_page.css";
+	@import "http://www.revisium.com/extra/media/css/jquery.dataTables.css";
+</style>
+
+
+<script type="text/javascript" language="javascript" src="http://yandex.st/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="https://datatables.net/download/build/jquery.dataTables.js"></script>
+
+<style type="text/css">
+ body {
+   font-family: Georgia;
+   color: #303030;
+   background: #FFFFF0;
+   font-size: 12px;
+   margin: 20px;
+   padding: 0;
+ }
+
+.hidd {
+display: none;
+}
+
+ h3 {
+   font-size: 27px;
+   margin: 0 0;
+ }
+
+ .sec {
+  font-size: 25px;
+  margin-bottom: 10px;
+ }
+
+
+ .warn {
+   color: #FF4C00;
+   margin: 0 0 20px 0;
+ }
+
+ .warn .it {
+   color: #FF4C00;
+ }
+
+ .warn2 {
+   color: #42ADFF;
+   margin: 0 0 20px 0;
+ }
+
+ .warn2 .it {
+   color: #42ADFF;
+ }
+
+ .ok {
+   color: #007F0E;
+   margin: 0 0 20px 0;
+ }
+
+ .vir {
+    color: #A00000;
+    margin: 0 0 20px 0;
+  }
+
+ .vir .it {
+    color: #A00000;
+ }
+
+ .disclaimer {
+   font-size: 11px;
+   font-family: Arial;
+   color: #505050;
+   margin: 10px 0 10px 0;
+ }
+
+ .thanx {
+  border: 1px solid #F0F0F0;
+   padding: 20px 20px 10px 20px;
+  font-size: 12px;
+  font-family: Arial;
+  background: #FBFFBA;
+ }
+
+ .footer {
+  margin: 40px 0 0 0;
+ }
+
+ .rep {
+   margin: 10px 0 20px 0;
+   font-size: 11px;
+   font-family: Arial;
+ }
+
+ .php_ok
+ {
+  color: #007F0E; 
+ }
+
+ .php_bad
+ {
+  color: #A00000; 
+ }
+
+ .notice
+ {
+  border: 1px solid cornflowerblue;
+  padding: 10px;
+  font-size: 12px;
+  font-family: Arial;
+  background: #E8F8F8;
+ }
+
+ .offer {
+  -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   position: absolute;
+   width: 350px;
+   right: 20px;
+   top: 54px;
+   background: #E06060;
+   color: white;
+   font-size: 11px;
+   font-family: Arial;
+   padding: 15px 20px 10px 20px;
+
+ }
+
+  .offer2 {
+  -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+
+   position: absolute;
+   width: 350px;
+   right: 100px;
+   top: 100px;
+   background: #30A030;
+   color: white;
+   font-size: 11px;
+   font-family: Arial;
+   padding: 20px 20px 10px 20px;
+
+ }
+
+ 
+ .offer A, .offer2 A {
+   color: yellow;
+ }
+
+ .update {
+   color: red;
+   font-size: 12px;
+   font-family: Arial;
+   margin: 0 0 20px 0;
+ }
+
+.updateinfo {
+   color: blue;
+   font-size: 12px;
+   font-family: Arial;
+   margin: 0 0 20px 0;
+ }
+
+
+ .tbg0 {
+ }
+
+ .tbg1 {
+   background: #F0F0F0;
+ }
+
+ .it {
+    font-size: 12px;
+    font-family: Arial;
+ }
+
+ .ctd {
+    font-size: 12px;
+    font-family: Arial;
+    color: #909090;
+ }
+
+ .flist {
+   margin: 10px 0 30px 0;
+ }
+
+ .tbgh {
+   background: #E0E0E0;
+ }
+
+ TH {
+   text-align: left;
+   font-size: 12px;
+   font-family: Arial;
+   color: #909090;
+ }
+
+ .details {
+  font-size: 9px;
+  font-family: Arial;
+  color: #303030;
+ }
+
+ .marker
+ {
+    color: #FF0000;
+    font-size: 16px;
+    font-weight: 700;
+ }
+
+</style>
+
+<script language="javascript">
+  function addToIgnore(par_Lnk, par_FN, par_CRC) {
+	var o = document.getElementById('igid');
+	var ta = document.forms.ignore.list;
+	
+	ta.value = ta.value + par_FN + String.fromCharCode(09) + par_CRC + String.fromCharCode(10);
+	
+	par_Lnk.innerHTML = 'Добавлено'; 
+	o.style.display = 'block';
+  }
+
+function hsig(id) {
+  var divs = document.getElementsByTagName("tr");
+  for(var i = 0; i < divs.length; i++){
+     
+     if (divs[i].getAttribute('o') == id) {
+        divs[i].innerHTML = '';
+     }
+  }
+
+  return false;
+}
+
+</script>
+
+</head>
+<body>
+<noindex><h3>AI-Болит v.20140612 &mdash; ищет вредоносный код и вирусы в файлах.</h3><h5>Григорий Земсков, компания "<a href="http://www.revisium.com/">Ревизиум</a>", 2012-2014, <a target=_blank href="http://revisium.com/ai/">Страница проекта на Revisium.com.</a> <font color=#E06060>Только для некоммерческого использования!</font></h5></h5><div class="update" style="margin: 20px 0 20px 0; padding: 20px; width: 500px; border: 1px solid #400000"><b>ВНИМАНИЕ! Не оставляйте файл ai-bolit.php или файл отчета на сервере, и не давайте прямых ссылок с других сайтов на файл отчета или скрипта. Отчет содержит важную информацию о вашем сайте или сервере, сохраните его в надежном месте от посторонних глаз!</b></div><div style="font-size: 8px; color: #909090; margin: 10px 0 10px 0;">MODE=1</div><div class="sec"><b>Отчет по /home/vidrioru/public_html/ai-bolit</b></div><div class="rep">Всего проверено 0 директорий и 3 файлов.</div><div class="sec">Критические замечания</div><div class="ok"><b>Шелл-скрипты не найдены.</b></div><div class="warn"><b>Список скрытых файлов:</b> (2)<br>/home/vidrioru/public_html/ai-bolit/.aurlignore<br>/home/vidrioru/public_html/ai-bolit/.aignore</div><div class="ok"><b>Не найдено директорий c дорвеями</b></div><div class="sec">Предупреждения</div><div class="ok"><b>Не найдено файлов больше чем 512.00 Kb</b></div><div class="ok"><b>Не найдено директорий, доступных на запись скриптом</b></div>Использовано памяти при сканировании: 108.03 Mb<p><div id="igid" style="display: none;"><div class="sec">Добавить в список игнорируемых</div><form name="ignore"><textarea name="list" style="width: 600px; height: 400px;"></textarea></form><div class="details">Скопируйте этот список и вставьте его в файл .aignore, чтобы исключить эти файлы из отчета.</div></div><div class="rep">Текущая база скрипта содержит 633 шелл-сигнатур, а также 278 других вредоносных фрагментов. Затрачено времени: <b>5.76142 s</b>.<br/>Сканирование начато: 23-06-2014 в 05:04:51. Сканирование завершено: 23-06-2014 в 05:04:57</div> <div class="footer"><div class="disclaimer"><span class="vir">[!]</span> Отказ от гарантий: даже если скрипт не нашел вредоносных скриптов на сайте, автор не гарантирует их полное отсутствие, а также не несет ответственности за возможные последствия работы скрипта ai-bolit.php или неоправданные ожидания пользователей относительно функциональности и возможностей.</div><div class="thanx">Замечания и предложения по работе скрипта и пропущенные вредоносные скрипты присылайте на <a href="mailto:ai@revisium.com">ai@revisium.com</a>.<p>Также будем чрезвычайно благодарны за любые упоминания скрипта AI-Bolit на вашем сайте, в блоге, среди друзей, знакомых и клиентов. Ссылочку можно поставить на <a href="http://revisium.com/ai/">http://revisium.com/ai/</a>. <p>Если будут вопросы - пишите <a href="mailto:ai@revisium.com">ai@revisium.com</a>. </div></div><div class="offer2" id="ofr2"><p>Если у вас есть эккаунт ВКонтакте, приглашаем в <a href="http://vk.com/siteprotect" target=_blank>группу "Безопасность Веб-сайтов"</a>: там я делюсь опытом защиты веб-сайтов и поиска вредоносных скриптов.</p><p><a href="#" onclick="document.getElementById('ofr2').style.display='none'" style="color: #303030">[x] закрыть сообщение</a></p></div></body> 
+<script language="javascript">
+
+$(document).ready(function(){
+    $('#table_crit').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+       "aoColumns": [
+                                     {"iDataSort": 7},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+       "iDisplayLength": 500,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		}
+
+     } );
+
+});
+
+$(document).ready(function(){
+    $('#table_vir').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+       "aoColumns": [
+                                     {"iDataSort": 7},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+       "iDisplayLength": 500,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		},
+
+     } );
+
+});
+
+
+    $('#table_warn').dataTable({
+       "aLengthMenu": [[100 , 500, -1], [100, 500, "All"]],
+       "aoColumns": [
+                                     {"iDataSort": 7},
+                                     {"iDataSort": 5},
+                                     {"iDataSort": 6},
+                                     {"bSortable": true},
+                                     {"bSortable": true},
+                                     {"bVisible": false},
+                                     {"bVisible": false},
+                                     {"bVisible": false}
+                     ],
+       "iDisplayLength": 500,
+		"oLanguage": {
+			"sLengthMenu": "Отображать по _MENU_ записей",
+			"sZeroRecords": "Ничего не найдено",
+			"sInfo": "Отображается c _START_ по _END_ из _TOTAL_ файлов",
+			"sInfoEmpty": "Нет файлов",
+			"sInfoFiltered": "(всего записей _MAX_)",
+			"sSearch":       "Поиск:",
+			"sUrl":          "",
+			"oPaginate": {
+				"sFirst": "Первая",
+				"sPrevious": "Предыдущая",
+				"sNext": "Следующая",
+				"sLast": "Последняя"
+			},
+			"oAria": {
+				"sSortAscending":  ": активировать для сортировки столбца по возрастанию",
+				"sSortDescending": ": активировать для сортировки столбцов по убыванию"			
+			}
+		}
+
+     } );
+
+</script>
+
+</html>

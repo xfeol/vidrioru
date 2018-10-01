@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>VM Breadz</name>
+	<creationDate>September 2009 - October 2011</creationDate>
+	<author>Maksym Stefanchuk</author>
+	<authorEmail>admin|at|galt.md</authorEmail>
+	<authorUrl>http://www.galt.md</authorUrl>
+	<copyright>
+			Copyright (C) 2009-2010 Maksym Stefanchuk. All rights reserved.
+	</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<version>1.5</version>
+   	<description>
+		<![CDATA[
+		Virtuemart Breadz - your store's breadcrumbs.
+		For more tips on how to configure your store please visit http://www.galt.md
+		]]>
+	</description>
+     <files>
+         <filename module="mod_vm_breadz">mod_vm_breadz.php</filename>
+         <filename module="mod_vm_breadz">index.html</filename>
+         <filename module="mod_vm_breadz">css/style.css</filename>
+     </files>
+     <params>
+			<param name="breadz_style" type="list" default="1" label="Style of breadcrumbs" description="Example1: Sony - 22 - New.   Example2: Brand: Sony - Screen size: 22 - Condition: New.">
+		  		<option value="0">Filter1 > Filter2 > Filter3 > ...</option>
+		  		<option value="1">ParamLabel: Filter1 > ParamLabel: Filter2 >...</option>
+			</param>
+			
+			<param name="pretext" type="textarea" cols="20" rows="1" default="" label="Pre-text" description="Smth like 'You are here:'" />	
+			<param name="pretext_link" type="list" default="0" label="Is pre-text a link?" description="You may want it to be smth like 'Home'">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</param>
+			<param name="pretext_url" type="text" default="" label="Enter the Pre-text URL" description="If choose Yes on above option" />	
+			
+			<param name="@spacer" type="spacer" default="" label="" description="" />
+			
+			<param name="showx" type="list" default="1" label="Show (x) in filter links?" description="Choose if you want to show '(x)' at 'Books'(x) in filter links?">
+		  		<option value="0">No</option>
+		  		<option value="1">Yes</option>
+			</param>	
+			
+			<param name="xtitle" type="textarea" cols="20" rows="1" default="Remove" label="(x) link's title" description="Title in a link" />	
+			
+			<param name="spacer" type="list" default="0" label="Spacer between links" description="Spacer between links">
+		  		<option value="0">></option>
+		  		<option value="1">>></option>
+		  		<option value="2">Your option</option>
+			</param>
+			
+			<param name="spacer_opt" type="textarea" cols="20" rows="1" default="" label="If chosen 'Your option' - enter it here" description="If chosen 'Your option' - enter it here" />	
+			
+			<param name="startingpoint" type="text" default="1" label="Begin showing from X level" description="Begin showing from X level" />	
+     </params>
+     <params group="advanced">
+     	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<field name="short_url" type="radio" default="0" label="Filter URL format" description="">
+			<option value="0">Default</option>
+			<option value="1">Short</option>
+		</field>
+	</params>
+</install>

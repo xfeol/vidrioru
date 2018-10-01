@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0" method="upgrade">
+	<name>VirtuemartCare</name>
+	<creationDate>19/01/2012</creationDate>
+	<author>Beagler</author>
+	<copyright>(C) 2012 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>beagler.ru@gmail.com</authorEmail>
+	<authorUrl>beagler.ru</authorUrl>
+	<license>GPL 2.0</license>
+	<version>0.0.9b</version>
+	<description>Компонент сервиса VirtuemartCare для Virtuemart 1.1.x и Joomla 1.5.x</description>
+	<files folder="site">
+		<filename>virtuemartcare.php</filename>
+	</files>
+	<administration>
+		<menu>VirtuemartCare</menu>
+		<submenu>
+			<menu link="option=com_virtuemartcare&amp;task=photo">Сервис фото</menu>
+			<menu link="option=com_virtuemartcare&amp;task=price">Сервис цен</menu>
+		</submenu>
+	<files folder="admin">
+			<filename>admin.virtuemartcare.php</filename>
+			<filename>price.virtuemartcare.php</filename>
+			<filename>toolbar.virtuemartcare.php</filename>
+			<filename>toolbar.virtuemartcare.html.php</filename>
+			<filename>config.xml</filename>
+			<filename>images/sfoto.jpg</filename>
+			<filename>images/backup.png</filename>
+			<filename>images/history.png</filename>
+			<filename>images/sprice.jpg</filename>
+			<filename>images/index.html</filename>
+			<filename>images/price.jpg</filename>
+	</files>
+	</administration>
+</install>

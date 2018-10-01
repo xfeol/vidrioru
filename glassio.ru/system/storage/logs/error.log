@@ -1,0 +1,3 @@
+2018-03-18 3:01:44 - PHP Notice:  Undefined index: password in /home/vidrioru/public_html/glassio.ru/catalog/controller/account/register.php on line 420
+2018-03-18 3:01:44 - PHP Notice:  Undefined index: confirm in /home/vidrioru/public_html/glassio.ru/catalog/controller/account/register.php on line 424
+2018-03-18 3:01:44 - PHP Notice:  Undefined index: password in /home/vidrioru/public_html/glassio.ru/catalog/controller/account/register.php on line 424

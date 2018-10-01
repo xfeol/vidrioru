@@ -1,0 +1,63 @@
+/** * @package Module VM Universal Search PRO for Joomla! 1.5 * @version $Id: style.css 599 2010-03-20 23:26:33Z you $ * @author Arkadiy, Kirill * @copyright (C) 2010 - WebInteractions * @license GNU/GPL v2 or later http://www.gnu.org/licenses/gpl-2.0.html**/
+#mod_mf_div,#mod_typ_div { padding:0 0 20px 0; position:relative}
+#buttonsbottom { float:left; width:100%; text-align:center}
+#mod_s_form label input {float:left;padding:0;margin:0 4px 0 0;display:inline}
+#reset,#submit { float:none; width:41%; margin:20px 5px 0 5px; display:inline-block}
+.result { float:left; width:100%}
+.pagenavf { width:100%; float:left}
+.quantity_box, #login_stretcher label { width:auto !important}#vt {float:left; display:block}
+#login_stretcher,#register_stretcher { float:left; width:100%} 
+#mod_s_form {float:left;width:210px;font-size:11px;color:#fff }
+#mod_vm_search_form {float:left;width:190px;margin:0 0 20px 20px;display:inline}
+#mod_s_form select {float:left;width:100%;font-size:11px;padding:3px 2px;color:#6f6f6f}
+#mod_category_div,#mod_mf_div,#mod_ad_div,#mod_price_div,#mod_order_div,.parameter_div {float:left;margin:15px 0 0 0;width:100%}
+.reset_button { display:none}
+label,.parameter_label,.mf_label,.cat_label,.mod_order_label,.types_label {float:left;width:100%;padding:0 0 3px 0}
+.types_label {margin:20px 0 0 0}
+.result label input {float:left;padding:0;margin:0 4px 0 0;display:inline}
+.mod_mf_checkbox_all_div,.mod_category_checkbox_all_div,.mod_category_checkbox_div,.mod_parameter_radio_all_div,.mod_category_radio_all_div,.mod_mf_radio_all_div,.mod_types_radio_all_div,.parameter,#mod_harakt_div, #mod_typ_div,#mod_mf_viz,#mod_category_viz,#mod_parameter_viz,.mod_mf_checkbox_div {float:left;width:100%}
+.mod_parameter_radio_div,.mod_category_radio_div,.mod_mf_radio_div,.mod_mf_radio_div_hidden,.mod_category_radio_div_hidden,.mod_parameter_radio_div_hidden,.mod_types_radio_div,.mod_types_radio_div_hidden {float:left;width:80%;margin:0 5px 0 0;display:inline}.mod_category_div,.mod_mf_div,.mod_types_div,.mod_parameter_div {float:left;width:100%;height:22px}
+#mod_price_div input {color:#6f6f6f;padding:2px;height:13px;width:34px;font-size:11px}
+.sb, .colichestvo {display:block;float:left;width:100%;margin:20px 0 0 0;border:none;padding:5px 0;text-align:center;font-size:9px;background:url(/components/com_vm_ext_search_pro/img/colvo.png) repeat-x center;color:#fff}.mod_order_list_azza_sel {float:left;height:11px;margin:5px 0 0 5px;overflow:hidden;width:10px; display:inline}
+.mod_order_list select {width:88% !important}
+#mod_price_div_label {float:left;width:100%;height:20px}
+#cv {background:url(/components/com_vm_ext_search_pro/img/colvo.png) repeat-x center;color:#fff;font-size:9px;width:27px;margin:0 25px 0 0;display:inline;height:13px;line-height:14px;text-align:center;float:right}
+#pf {margin:0 10px 0 0;display:inline}
+.mod_parameter_two_div, .mod_available_date_two_div {float:left;width:93%;height:22px}
+#mod_s_form .editlinktip {float:right;margin:4px 0 0 0}
+.parameter_label show_param, .parameter_label { cursor:pointer}
+.prices_select_div { clear:both; }
+.ui-slider  {text-decoration:none !important}
+.ui-slider .ui-slider-handle  {overflow:visible !important}
+.ui-slider .ui-slider-tooltip {display:none}
+.ui-slider .screenReaderContext {position:absolute;width:0;height:0;overflow:hidden;left:-999999999px}
+.ui-slider .ui-state-active .ui-slider-tooltip, .ui-slider .ui-state-focus .ui-slider-tooltip, .ui-slider .ui-state-hover .ui-slider-tooltip {display:block;position:absolute;bottom:2.5em;text-align:center;padding:.3em .2em .4em;font-size:.9em;width:8em;margin-left:-3.7em}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down, .ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner {position:absolute;display:block;width:0;height:0;border-bottom-width:0;background:none}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down {border-left:7px dashed transparent;border-right:7px dashed transparent;border-top-width:8px;bottom:	-8px;right:auto;left:50%;margin-left:-7px}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner {border-left:6px dashed transparent;border-right:6px dashed transparent;border-top:7px solid #fff;bottom:	auto;top:-9px;left:-6px}
+.ui-slider a {text-decoration:none}
+.ui-slider ol, .ui-slider li, .ui-slider dl, .ui-slider dd, .ui-slider dt {list-style:none;margin:0;padding:0}
+.ui-slider ol, .ui-slider dl {margin:11px 0 0 4px;float:left;width:100%}
+.ui-slider dt {top:1.5em;position:absolute;padding-top:.2em;text-align:center;border-bottom:1px dotted #ddd;height:.7em;color:#999}
+.ui-slider dt span {background:#fff;padding:0 .5em}
+.ui-slider li, .ui-slider dd {position:absolute;overflow:visible;color:#666; top:11px}
+.ui-slider span.ui-slider-label {position:absolute}
+.ui-slider li span.ui-slider-label, .ui-slider dd span.ui-slider-label {display:none}
+.ui-slider li span.ui-slider-label-show, .ui-slider dd span.ui-slider-label-show {display:block}
+.ui-slider span.ui-slider-tic {position:absolute;left:0;height:8px;font-size:0;top:-12px}
+.ui-slider li span.ui-widget-content, .ui-slider dd span.ui-widget-content {border-right:0;border-left-width:1px;border-left-style:solid;border-top:0;border-bottom:0}
+.ui-slider .first .ui-slider-tic, .ui-slider .last .ui-slider-tic {display:none}
+.parameter_slider_diapazon_div { float:left; height:22px; width:100%}
+.ui-slider-horizontal { height:6px !important; font-size:0 }
+.ui-slider-horizontal .ui-slider-handle { top:-3px; margin-left:-1px; }
+.ui-slider-horizontal .ui-slider-range { top:0; height:6px !important; font-size:0}
+.ui-slider-horizontal .ui-slider-range-min { left:0; }.ui-slider-horizontal .ui-slider-range-max { right:0; }
+.ui-slider { position:relative; text-align:left; }
+.ui-slider .ui-slider-handle { position:absolute; z-index:2; width:10px; height:9px; cursor:default; }
+.ui-slider .ui-slider-range { position:absolute; z-index:1; font-size:.7em; display:block; border:0; }
+.ui-corner-all { -moz-border-radius:3px; -webkit-border-radius:3px; }
+.ui-widget-content { border:1px solid #ccc; background:#fcfdfd url(/components/com_vm_ext_search_pro/img/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x; color:#222222; }
+.ui-state-default, .ui-widget-content .ui-state-default { border:1px solid #ccc; background:#dfeffc url(/components/com_vm_ext_search_pro/img/ui-bg_glass_85_dfeffc_1x400.png) center repeat-x; font-weight:bold; color:#2e6e9e; outline:none; }.ui-widget { font-family:Lucida Grande, Lucida Sans, Arial, sans-serif; font-size:1.1em; }
+.ui-helper-reset {margin:0; padding:0; border:0; outline:0; text-decoration:none; font-size:9px; list-style:none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus {font-weight:bold; outline:none; border:1px solid #CCC }
+.show_price_select {width:20px;}

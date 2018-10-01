@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+    <name>System - JCH_Optimize</name>
+    <author>Samuel Marshall</author>
+    <creationDate>March 2010</creationDate>
+    <copyright>Copyright (C) 2010 Samuel Marshall. All rights reserved.</copyright>
+    <license>GNU/GPLv3 http://www.gnu.org/copyleft/gpl.html</license>
+    <authorEmail>smarshall@cwjamaica.com</authorEmail>
+    <authorUrl>http://jch-optimize.sourceforge.net</authorUrl>
+    <version>1.3.4</version>
+    <description>JCH_OPTIMIZE_DESCRIPTION</description>
+    <files>
+        <filename plugin="JCH_Optimize">JCH_Optimize.php</filename>
+        <filename>JCH_Optimize/jsmin.php</filename>
+        <filename>JCH_Optimize/HTML.php</filename>
+        <filename>JCH_Optimize/CSS.php</filename>
+        <filename>JCH_Optimize/jscss.php</filename>
+        <filename>JCH_Optimize/index.html</filename>
+        <filename>JCH_Optimize/.htaccess</filename>
+        <filename>JCH_Optimize/css-sprite-gen.inc.php</filename>
+    </files>
+    <languages folder="Languages">
+        <language tag="en-GB">en-GB.plg_system_JCH_Optimize.ini</language>
+        <language tag="lv-LV">lv-LV.plg_system_JCH_Optimize.ini</language>
+    </languages>
+    <params>
+        <param name="css" type="radio" default="1" label="CSS_LABEL" description="CSS_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="import" type="radio" default="0" label="IMPORT_LABEL" description="IMPORT_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="javascript" type="radio" default="1" label="JAVASCRIPT_LABEL" description="JAVASCRIPT_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="gzip" type="radio" default="0" label="GZIP_LABEL" description="GZIP_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="css_minify" type="radio" default="0" label="COMPRESS_CSS" description="COMPRESS_CSS_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="js_minify" type="radio" default="0" label="COMPRESS_JAVASCRIPT" description="COMPRESS_JAVASCRIPT_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="html_minify" type="radio" default="0" label="COMPRESS_HTML" description="COMPRESS_HTML_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="defer_js" type="radio" default="0" label="DEFER_JS" description="DEFER_JS_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="bottom_js" type="list" default="2" label="POSITION_JS_LABEL" description="POSITION_JS_DESCRIPTION">
+            <option value="0">First found javascript tag</option>
+            <option value="2">Last found javascript tag</option>
+            <option value="1">Bottom of page</option>
+        </param>
+        <param name="lifetime" type="text" default="30" label="LIFETIME_LABEL" description="LIFETIME_DESCRIPTION" size="6" ></param>
+        <param name="@spacer" type="spacer" default="" label="ADVANCED_SETTINGS"></param>
+        <param name="excludeAllExtensions" type="radio" default="1" label="EXCLUDE_ALL_EXTENSIONS_LABEL" description="EXCLUDE_ALL_EXTENSIONS_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="excludeCss" type="textarea"  rows="3" default="" cols="20" label="EXCLUDE_CSS_LABEL" description="EXCLUDE_CSS_DESCRIPTION"></param>
+        <param name="excludeJs" type="textarea" rows="3" default="" cols="20" label="EXCLUDE_JS_LABEL" description="EXCLUDE_JS_DESCRIPTION"></param>
+        <param name="excludeComponents" type="textarea" rows="3" default="" cols="20" label="EXCLUDE_COMPONENTS_LABEL" description="EXCLUDE_COMPONENTS_DESCRIPTION"></param>
+        <param name="jqueryNoConflict" type="radio" default="1" label="JQUERY_NO_CONFLICT_LABEL" description="JQUERY_NO_CONFLICT_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="jquery" type="text" default="jquery.js" label="JQUERY_LABEL" description="JQUERY_DESCRIPTION"></param>
+        <param name="customOrder" type="textarea" rows="3" cols="20" default="mootools.js,jquery.js,jquery.innerfade.js" label="JS_CUSTOM_ORDER_LABEL" description="JS_CUSTOM_ORDER_DESCRIPTON"></param>
+        <param name="htaccess" type="radio" default="0" label="HTACCESS_LABEL" description="HTACCESS_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="@spacer" type="spacer" default="" label="SPRITE_GENERATOR"></param>
+        <param name="csg_enable" type="radio" default="0" label="SPRITE_ENABLE_LABEL" description="SPRITE_ENABLE_DESCRIPTION">
+            <option value="0">NO</option>
+            <option value="1">YES</option>
+        </param>
+        <param name="csg_file_output" type="list" default="PNG" label="FILE_OUTPUT_LABEL" description="FILE_OUTPUT_DESCRIPTION">
+            <option value="PNG">PNG</option>
+            <option value="GIF">GIF</option>
+        </param>
+        <param name="csg_min_max_images" type="list" default="0" label="MIN_MAX_IMAGES_LABEL" description="MIN_MAX_IMAGES_DESCRIPTION">
+            <option value="0">MINIMUM</option>
+            <option value="1">MAXIMUM</option>
+        </param>
+        <param name="csg_direction" type="list" default="vertical" label="SPRITE_DIRECTION_LABEL" description="SPRITE_DIRECTION_DESCRIPTION">
+            <option value="vertical">VERTICAL</option>
+            <option value="horizontal">HORIZONTAL</option>
+        </param>
+        <param name="csg_wrap_images" type="radio" default="off" label="WRAP_IMAGES_LABEL" description="WRAP_IMAGES_DESCRIPTION">
+            <option value="off">NO</option>
+            <option value="on">YES</option>
+        </param>
+        <param name="csg_include_images" type="textarea"  rows="3" default="" cols="20" label="INCLUDE_IMAGES_LABEL" description="INCLUDE_IMAGES_DESCRIPTION"></param>
+        <param name="csg_exclude_images" type="textarea"  rows="3" default="" cols="20" label="EXCLUDE_IMAGES_LABEL" description="EXCLUDE_IMAGES_DESCRIPTION"></param>
+    </params>
+</install>

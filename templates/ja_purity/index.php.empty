@@ -1,0 +1,31 @@
+<?php
+/**
+ * @copyrightCopyright (C) 2005 - 2010 Open Source Matters. All rights reserved.
+ * @licenseGNU/GPL, see LICENSE.php
+ * Joomla! is free software. This version may have been modified pursuant
+ * to the GNU General Public License, and as distributed it includes or
+ * is derivative of works licensed under the GNU General Public License or
+ * other free or open source software licenses.
+ * See COPYRIGHT.php for copyright notices and details.
+ */
+
+// no direct access
+defined( '_JEXEC' ) or die( 'Restricted access' );
+
+include_once (dirname(__FILE__).DS.'/ja_vars.php');
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="alternate" type="application/rss+xml" title="Новинки. Мебель из стекла от Vidrio.ru" href="http://vidrio.ru/component/virtuemart/feed" />
+<jdoc:include type="head" />
+
+<link href="/templates/ja_purity/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+Test
+</body>
+
+</html>

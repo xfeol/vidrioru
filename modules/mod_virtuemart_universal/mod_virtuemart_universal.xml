@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>Универсальный модуль Virtuemart</name>
+	<author>Beliyadm</author>
+	<creationDate>10 07 2009</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@pbelkov.com</authorEmail>
+	<authorUrl>www.blog.pbelkov.com</authorUrl>
+	<version>1.2.3</version>
+	<description>Универсальный модуль для Virtuemart. Показывает последние\продаваемы\специальные товары</description>
+	<files>
+		<filename module="mod_virtuemart_universal">mod_virtuemart_universal.php</filename>
+		<filename module="mod_virtuemart_universal">helper.php</filename>
+		<filename module="mod_virtuemart_universal">index.html</filename>
+		<filename module="mod_virtuemart_universal">tmpl/default.php</filename>
+		<filename module="mod_virtuemart_universal">tmpl/index.html</filename>
+		<filename module="mod_virtuemart_universal">files/index.html</filename>
+		<filename module="mod_virtuemart_universal">files/mod_virtuemart_universal.css</filename>
+		<filename module="mod_virtuemart_universal">files/ico_discount.png</filename>
+		<filename module="mod_virtuemart_universal">files/jquery_tooltip.js</filename>
+		<filename module="mod_virtuemart_universal">files/mootools_tooltip.js</filename>
+	</files>
+	<params>
+		<param name="selecttype" type="list" default="create_dsc" label="Сортировка" description="Тип сортировки товаров">
+			<option value="1">Последние добавленные товары</option>
+			<option value="2">Наиболее продаваемые товары</option>
+			<option value="3">Отмеченные как featured</option>
+			<option value="4">Случайные товары</option>
+	  	</param>
+		<param name="max_items" type="text" default="6" label="Количество товаров" description="Сколько товаров показывать за раз в модуле" />
+		<param name="category_id" type="text" default="" label="ID категории" description="Вы можете через запятую указать ID требуемых категорий, если пусто - выборка идет из всех категорий" />
+		<param name="ceil_price" type="radio" default="0" label="Обрезать цену" description="Обрезает значение цены до первой точки (пример: 48.12000 -> 48)">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="discount" type="radio" default="1" label="Показывать скидку" description="Показывает иконку с скидкой на изображении товара">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="jstooltip" type="list" default="1" label="Использовать JS подсказки" description="Выберите тип всплывающих подсказок для ссылок (тегов A), по умолчанию JS на mootools">
+			<option value="0">Обычные title браузера</option>
+			<option value="1">Подсказки JS на mootools</option>
+			<option value="2">Подсказки JS на jquery</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="checkItemid" type="radio" default="1" label="Использовать ItemID" description="Если да - модуль ищет первое вхождение ссылки на Virtuemart в меню и подставляет соответствующий ItemID в ссылку, если НЕТ - используется ItemID текущей страницы. Создается дополнительный SQL запрос, если хотите избежать - используйте ручное назначение ItemID">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="checkItemidCustom" type="text" default="" label="Назначить ItemID" description="Вы можете вручную назначить нужный ItemID для ссылок, в таком случае не создается лишний SQL запрос как при автоматическом определении" />
+
+	</params>
+	<params group="advanced">
+		<param name="cache" type="radio" default="0" label="Включить кеш" description="Включить ли кеш для модуля">
+			<option value="0">Нет</option>
+			<option value="1">Да</option>
+		</param>
+		<param name="moduleclass_sfx" type="text" default="" label="CSS суффикс модуля" description="Применяется к всему модулю, можно использовать наследование стилей DIV.moduletable-MySFX .DIV.mod_vm_universal {} " />
+	</params>
+</install>
