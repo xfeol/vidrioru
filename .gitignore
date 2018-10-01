@@ -1,3 +1,7 @@
 components/com_virtuemart/shop_image/*
+cache/*
+glassio.ru/system/storage/cache/*
 *.jpg
 *.log
+config.php
+market_ya.php

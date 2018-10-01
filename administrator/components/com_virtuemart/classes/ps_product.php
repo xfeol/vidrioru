@@ -1891,15 +1891,15 @@ class vm_ps_product extends vmAbstractObject {
 		$whereClause='WHERE product_id=%s AND shopper_group_id=%s ';
 		$whereClause = sprintf( $whereClause, intval($product_id), intval($shopper_group_id) );
 
-		$q = "SELECT `product_price`, `product_price_id`, `product_currency`, `product_price_alternative` FROM `#__{vm}_product_price` $whereClause $additionalSQL";
+		$q = "SELECT `product_price`, `product_price_id`, `product_currency` FROM `#__{vm}_product_price` $whereClause $additionalSQL";
 		
 		$sig = sprintf("%u\n", crc32($q));
 
 		if( !isset($resultcache[$sig])) {
 			$db->query($q);
 			if( !$db->next_record() ) return false;
-			$product_db_price = $db->f("product_price_alternative");
-			//print($product_db_price);
+			$product_db_price = $GLOBALS['product_info'][$product_id]['product_price_alternative'];
+
 			if (!($use_alt_price == true && !empty($product_db_price)))
 			{
 				$product_db_price = $db->f("product_price");

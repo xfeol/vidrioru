@@ -31,7 +31,7 @@ require_once ( JPATH_BASE .DS.'includes'.DS.'framework.php' );
 
 if (date('H') > 18)
 {
-    $_REQUEST['pp'] = "product_price_alternative";
+    $_REQUEST['altprice'] = "true";
 }
 /**
  * CREATE THE APPLICATION
