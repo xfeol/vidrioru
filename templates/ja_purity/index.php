@@ -73,7 +73,6 @@ include_once (dirname(__FILE__).DS.'/ja_vars.php');
 
 
 <div id="ja-wrapper">
-
 		<?php if ($this->countModules('left')): ?>
 		<!-- BEGIN: LEFT COLUMN -->
 		<div id="ja-col1">
@@ -129,7 +128,6 @@ include_once (dirname(__FILE__).DS.'/ja_vars.php');
 <?php
   JResponse::setHeader('Last-Modified', gmdate("D, d M Y H:i:s") . ' GMT', false);
 ?>
-
 <jdoc:include type="modules" name="consultant" />
 <div id="scrollup"><i class="fa fa-caret-square-o-up fa-4x"></i></div>
 <div id="tooltip_colors">

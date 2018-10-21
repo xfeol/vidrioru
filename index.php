@@ -29,10 +29,34 @@ require_once ( JPATH_BASE .DS.'includes'.DS.'framework.php' );
 
 //JDEBUG ? $_PROFILER->mark( 'afterLoad' ) : null;
 
-if (date('H') > 18)
-{
-    $_REQUEST['altprice'] = "true";
+function isBot(&$botname = '') {
+	$bots = array(
+			'rambler','googlebot','aport','yahoo','msnbot','turtle','mail.ru','omsktele',
+			'yetibot','picsearch','sape.bot','sape_context','gigabot','snapbot','alexa.com',
+			'megadownload.net','askpeter.info','igde.ru','ask.com','qwartabot','yanga.co.uk',
+			'scoutjet','similarpages','oozbot','shrinktheweb.com','aboutusbot','followsite.com',
+			'dataparksearch','google-sitemaps','appEngine-google','feedfetcher-google',
+			'liveinternet.ru','xml-sitemaps.com','agama','metadatalabs.com','h1.hrn.ru',
+			'googlealert.com','seo-rus.com','yaDirectBot','yandeG','yandex',
+			'yandexSomething','Copyscape.com','AdsBot-Google','domaintools.com',
+			'Nigma.ru','bing.com','dotnetdotcom'
+	);
+	foreach ($bots as $bot) {
+		if (stripos($_SERVER['HTTP_USER_AGENT'], $bot) !== false) {
+			$botname = $bot;
+			return true;
+		}
+	}
+	return false;
 }
+
+$botname='';
+if (date('H') > 15 || isBot($botname) || date('N') == 6 || date('N') == 7)
+{
+    $_REQUEST['altprice'] = true;
+}
+
+
 /**
  * CREATE THE APPLICATION
  *
